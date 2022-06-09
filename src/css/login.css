@@ -1,0 +1,19 @@
+@import './test.css'; /* 使用了import语句导入文件，需要在css-loader中配置options的importLoaders的值，让import导入的文件再次被前面的loader处理 */
+
+.login-title {
+    color: red;
+    text-align: center;
+}
+.image-center {
+    text-align: center;
+}
+.bgBox {
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    border: 1px solid #ddfe44;
+    background-image: url('../img/08-节流原理.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
